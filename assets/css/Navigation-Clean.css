@@ -49,11 +49,11 @@
 }
 
 .navigation-clean .navbar-toggler {
-  color: #888;
+  color: #FFF;
 }
 
 .navigation-clean.navbar-dark .navbar-toggler {
-  color: #eee;
+  color: #777;
 }
 
 .navigation-clean .navbar-collapse, .navigation-clean .form-inline {
