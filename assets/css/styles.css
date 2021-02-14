@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient( 45deg, rgb(14, 16, 24) 0%, rgb(14, 16, 24) 21%, rgb(18, 20, 30) 21%, rgb(18, 20, 30) 37%, rgb(21, 24, 36) 37%, rgb(21, 24, 36) 46%, rgb(25, 28, 42) 46%, rgb(25, 28, 42) 53%, rgb(28, 32, 48) 53%, rgb(28, 32, 48) 59%, rgb(32, 36, 54) 59%, rgb(32, 36, 54) 77%, rgb(36, 41, 61) 77%, rgb(36, 41, 61) 100% );
+}
+
 .pic {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
@@ -21,7 +25,7 @@
   width: 0;
   height: 2px;
   background: white;
-  transition: width .5s ease;
+  transition: width 0.5s ease;
 }
 
 .nav-link:hover:before {
@@ -34,8 +38,8 @@
 
 .social-icons a i {
   transition-delay: 0ms;
-  transition: trasnform .1;
-  transition-duration: .15s;
+  transition: trasnform 0.1;
+  transition-duration: 0.15s;
 }
 
 .social-icons a i:hover {
