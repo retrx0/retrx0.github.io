@@ -4,7 +4,7 @@
     padding-top: 5px !important;
     display: block !important;
   }
-  .col-sm{
+  .col-sm {
     margin-top: 10px;
   }
   .row {
@@ -22,7 +22,7 @@
   .full-name {
     font-size: 28px !important;
   }
-  .card-lg{
+  .card-lg {
     margin-top: auto !important;
     padding: 0 !important;
   }
@@ -42,7 +42,7 @@
 
 :root {
   /* --text: rgb(254, 139, 38); */
-  --text: #ffffff;
+  --text: #f2e8db;
   --accent: #000000;
 }
 
@@ -62,26 +62,47 @@ body {
 
 body {
   color: var(--text);
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     45deg,
-    rgb(137, 93, 72) 0%,
-    rgb(137, 93, 72) 1%,
-    rgb(89, 61, 48) 1%,
-    rgb(89, 61, 48) 15%,
-    rgb(225, 215, 201) 15%,
-    rgb(225, 215, 201) 38%,
-    rgb(233, 129, 39) 38%,
-    rgb(233, 129, 39) 55%,
-    rgb(248, 242, 234) 55%,
-    rgb(248, 242, 234) 62%,
-    rgb(225, 199, 166) 62%,
-    rgb(225, 199, 166) 63%,
-    rgb(245, 228, 206) 63%,
-    rgb(245, 228, 206) 69%,
-    rgb(61, 49, 46) 69%,
-    rgb(61, 49, 46) 100%
-  );
+    #895d48 0%,
+    #895d48 1%,
+    #593d30 1%,
+    #593d30 15%,
+    #e1d7c9 15%,
+    #e1d7c9 38%,
+    #e98127 38%,
+    #e98127 55%,
+    #f8f2ea 55%,
+    #f8f2ea 62%,
+    #e1c7a6 62%,
+    #e1c7a6 63%,
+    #f5e4ce 63%,
+    #f5e4ce 69%,
+    #3d312e 69%,
+    #3d312e 100%
+  ); */
 
+  background-image: linear-gradient(
+      45deg,
+      rgb(137, 93, 72) 0%,
+      rgb(137, 93, 72) 5%,
+      transparent 5%,
+      transparent 38%,
+      transparent 38%,
+      transparent 60%,
+      rgb(89, 61, 48) 60%,
+      rgb(89, 61, 48) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(225, 215, 201) 0%,
+      rgb(225, 215, 201) 14%,
+      rgb(233, 129, 39) 14%,
+      rgb(233, 129, 39) 75%,
+      rgb(248, 242, 234) 75%,
+      rgb(248, 242, 234) 100%
+    ),
+    linear-gradient(90deg, rgb(225, 199, 166), rgb(225, 199, 166));
 }
 
 @keyframes gradient {
@@ -102,18 +123,16 @@ body {
 }
 
 .long-shadow {
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .shadow-sm {
   box-shadow: 0 2px 7px -5px #000000;
 }
 
-.row{
-  margin-top: 10px;
+.row {
+  /* margin-top: 10px; */
 }
 
 .glass {
@@ -128,9 +147,11 @@ body {
 }
 
 .card-lg {
-  border-radius: 25px;
-  background-color: #00000033;
-  padding: 15px;
+  border-radius: 10px;
+  /* background-color: #00000033; */
+  /* padding: 15px; */
+  /* box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff; */
 }
 
 .full-name {
@@ -146,14 +167,14 @@ body {
 /*Contact*/
 .contact-button {
   color: var(--text);
-  border-radius: 15px;
+  border-radius: 10px;
   vertical-align: middle;
   text-align: center;
   padding: 0px;
   margin: auto;
   font-size: 20px;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); */
   width: 200px;
   height: 100px;
   line-height: 100px;
@@ -163,7 +184,6 @@ body {
   text-decoration: none;
   color: var(--text);
   vertical-align: middle;
-
 }
 
 .contact i {
@@ -171,7 +191,7 @@ body {
   padding: 10px;
 }
 
-.company-link{
+.company-link {
   text-decoration: none;
   font-weight: 600;
   color: var(--text);
@@ -199,18 +219,16 @@ body {
   margin: 5px;
   width: 80px;
   height: 80px;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
   line-height: 80px;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .social-icons a i,
 .contact-button {
   transition-delay: 0ms;
   transition-duration: 0.15s !important;
-  box-shadow: 0 2px 7px -5px #000000;
+  /* box-shadow: 0 2px 7px -5px #000000; */
   /* box-shadow: 0 3px 4px rgba(140, 149, 159, 0.15); */
 }
 
@@ -218,11 +236,9 @@ body {
 .contact-button:hover {
   color: var(--text);
   transform: scale(1.05);
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
-  border-radius: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -237,8 +253,7 @@ body {
 
 /* Animation */
 .text-animate {
-  animation: animated-text 2s steps(19, end) 1s 1 normal both,
-    animated-cursor 600ms steps(19, end) infinite;
+  animation: animated-text 2s steps(19, end) 1s 1 normal both, animated-cursor 600ms steps(19, end) infinite;
 }
 
 /* text animation */
@@ -262,7 +277,7 @@ body {
 }
 
 .animate__animated.animate__fadeIn {
-  --animate-duration: .5s;
+  --animate-duration: 0.5s;
 }
 
 /* Hover Animation */
